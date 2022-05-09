@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+body 
+{
+    background-image: url(phone.jpg); 
+    overflow: visible;
+}
+
+textarea 
+{
+    background-color:  rgba(253, 241, 249, 0.705);
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    /* line-height: 160%; */
+    color: rgb(27, 17, 75);
+    padding-left: 100px;
+    margin: 20px;
+} 
+
+.keyboard 
+{
+    width: 1000px;
+    height: 300px;
+    margin: 15px auto 0;
+    padding: 30px 30px;
+    background-image: url(phone2.png); 
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.key 
+{ 
+  display: flex;
+  background-color: rgb(27, 17, 75);
+  height: 40px;
+  margin-right: 7px;
+  border-radius: 10px; 
+  justify-content: center;
+  align-items: center;
+}
+
+.key:active 
+{
+    border: 1px solid #81e2e6;
+}
+
+.key:hover
+{
+    /* background: rgb(60, 182, 252); */
+    background: rgb(126, 90, 121);
+}
